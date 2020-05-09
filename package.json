@@ -5,6 +5,9 @@
   "dependencies": {
     "acorn": "^7.2.0",
     "bootstrap": "^4.4.1",
+    "extend": "^3.0.2",
+    "lodash.template": "^4.5.0",
+    "mem": "^6.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
@@ -15,5 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
